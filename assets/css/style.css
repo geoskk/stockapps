@@ -1,0 +1,183 @@
+html{
+    /* overflow: hidden; */
+    height: 100%;
+}
+body{
+    overflow: auto; 
+    height: 100%; 
+}
+
+
+
+
+.container-fluid {
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+}
+
+#wrapper {
+    margin: 0px auto;
+    overflow: hidden;
+    background: #f3f7fa;
+    position: relative;
+    box-shadow: rgb(207, 207, 207) 3px 15px 15px 3px;
+}
+
+
+body {
+    font-size: 14px;
+    color: #506070;
+	font-family: 'Roboto', sans-serif !important;
+	/* font-family: "Effra", Regular; */
+    margin: 0;
+    padding: 0;
+	font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+/* Content */
+.content_area {
+    overflow: hidden;
+    padding: 15px;
+    min-height: 480px;
+    margin-top: 90px;
+}
+
+.content_areaLogIn {
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+.content_heading{
+    color: #280071;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.content_text{
+    margin: 10px 0px;
+}
+
+.content_label{
+    font-weight: bold;
+    margin: 0;
+    float: left;
+    padding: 4px;
+    min-width: 125px;
+}
+
+.content_value{
+    margin: 0;
+    float: left;
+    padding: 4px;
+}
+
+.content_numinput{
+    width: 100px;
+}
+
+
+.content_infotxt{
+    color: #00b5ef;
+}
+
+.content_highlight{
+    color: #280071;
+}
+
+.content_list {
+    list-style: none;
+    
+  }
+  
+.content_list li::before {
+    content: "\25CF";
+    color: #280071;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    padding: 5px 0;
+  }
+
+
+
+
+.content_listBG{
+    background-color: #e9eff2;
+    padding: 15px 30px;
+}
+  .content_link {
+    color: #280071;
+    text-decoration: underline;
+	white-space: nowrap;
+  }
+
+  .content_mandatory {
+    color: #f00;
+  }
+
+  .content_card{
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 10px 0px;
+    padding:10px 10px;
+}
+
+.content_innercard{
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 10px 0px;
+    padding:20px 20px;
+}
+
+
+
+.content_card .row{
+
+    margin: 10px 5px;
+}
+.content_block{
+    padding: 1px;
+}
+
+.content_input {
+    border: 0px;
+    min-width: 260px;
+    background-color:#f1f9fd;
+    border-bottom: 1px solid #65c6eb;
+    height: 35px;
+}
+
+.content_table th{
+    background-color:  #00b5ef;
+    color:#ffffff;
+}
+.content_table {
+    border: 1px solid #dee2e6;
+}
+
+/* Radio & Check box starts here*/
+.custom-checkbox .custom-control-label::before{
+	border-radius: 0rem;
+	border: 1px solid #506070;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #280071;
+    background-color: #280071;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+	background-size: .72rem;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-size: .62rem;
+    background-color: #280071! important;
+    border: 1px solid #280071;
+    border-radius: 50%;
+}
+

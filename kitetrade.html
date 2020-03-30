@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kite Trade - Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="https://kite.trade/publisher.js?v=3"></script>
+	 <script src="assets/js/kiteinit.js"></script>
+
+</head>
+<body>
+
+<div class="container"> 
+
+	<div class="col-12 row content_card">
+		<div class="col-12 border-bottom" >
+		  <p class="content_label">Add Order:</p>
+		</div>
+		<div class="col-12 row">
+		  <div class="col-sm-4" >
+			<p class="content_label">Exchange:</p>
+			<p class="content_value"> 
+				<select id="exchange">
+					<option>NSE</option>
+					<option>NFO</option>
+					<option>BSE</option>
+				</select>
+			</p>
+		  </div>
+		  <div class="col-sm-4" >
+			<p class="content_label">Symbol:</p>
+			<p class="content_value"> 
+				<!-- <select id="symbolList">
+				</select> -->
+				<input  id="symbolList" class="" type="test"  value=""/>
+			</p>
+		  </div>
+		  <div class="col-sm-4" >
+			<p class="content_label">Quantity:</p>
+			<p class="content_value"> 
+				<input  id="quantity" class="content_numinput" type="number"  value="1"/>
+			</p>
+		  </div>
+		</div>
+
+		<div class="col-12 row">
+			<div class="col-sm-4" >
+			  <p class="content_label">Transaction Type:</p>
+			  <p  id="" class="content_value"> 
+				  Buy <input name="transType" type="radio" value="BUY" checked="checked"/> 
+				  Sell <input name="transType" type="radio" value="SELL"/>
+				</p>
+			</div>
+			<div class="col-sm-4" >
+			  <p class="content_label">Order Type:</p>
+			  <p id="" class="content_value"> 
+				Market <input name="orderType" type="radio" value="MARKET" checked="checked"/> 
+				Limit <input name="orderType" type="radio" value="LIMIT"/>
+			  </p>
+			</div>
+			<div class="col-sm-4" >
+			  <p class="content_label">Price:</p>
+			  <p class="content_value"> 	
+				  <input id="price" class="content_numinput" type="number"  value="1"/>
+			</p>
+			</div>
+		  </div>
+
+		  <div class="col-12 row">
+			<div class="col-sm-12" >
+			  <p class="content_label">Variety:</p>
+			  <p class="content_value"> 
+				Regular <input name="variety" type="radio" /> 
+				BO <input name="variety" type="radio" />
+				CO <input name="variety" type="radio" />
+			  </p>
+			</div>
+			<div class="col-sm-4" >
+			  <p class="content_label">Stoploss:</p>
+			  <p class="content_value"> <input class="content_numinput" type="number" /></p>
+			</div>
+			<div class="col-sm-4" >
+			  <p class="content_label">Square Off:</p>
+			  <p class="content_value"><input class="content_numinput" type="number" /></p>
+			</div>
+			<div class="col-sm-4" >
+				<p class="content_label">Trailing SL:</p>
+				<p class="content_value"><input class="content_numinput" type="number" /></p>
+			  </div>
+
+
+		  </div>
+
+		  <div class="col-12 row">
+			<div class="col-sm-12" >
+			  <p class="content_label">Read Only:</p>
+			  <p class="content_value"> <input name="readonly" type="checkbox" /></p>
+			</div>
+			
+		  </div>
+
+
+		  <div class="col-12 row">
+			<input type="button" id="validate_btn" value="Validate" > </input>
+			
+
+			<!-- A Kite button will be generated inside this container 
+<p id="default-button"> </p> //-->
+
+<!-- The basket will be linked to this element's onClick //-->
+<button id="custom-button">Buy the basket</button>
+
+		  </div>
+
+	  </div>
+  
+   </div>
+<script>
+
+
+
+
+</script>
+</body>
+</html>
