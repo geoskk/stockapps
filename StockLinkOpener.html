@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>India Stock Net</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	
+	<script src="assets/js/stocklinkopener.js"></script>
+	
+	<!-- Include the plugin //-->
+	<script src="https://kite.trade/publisher.js?v=3"></script>
+
+</head>
+
+<body>
+	<div id="navSec"></div>
+	<div class="container">
+	<div class="row">
+
+
+
+		<div class="col-sm-2">
+				<select id="selSector" class="form-control">
+					  <option value="Auto">Auto</option>
+					  <option value="Bank">Bank</option>
+					  <option value="Finance">Finance</option>
+					  <option value="Communication">Communication</option>
+					  <option value="Cement">Cement</option>
+					  <option value="Electric">Electric</option>
+					  <option value="FMCG">FMCG</option>
+					  <option value="IT">IT</option>
+					  <option value="Materials">Materials</option>
+					  <option value="Misc">Misc</option>
+					  <option value="Metal">Metal</option>
+					  <option value="Oil">Oil</option>
+					  <option value="Pharma">Pharma</option>
+					  <option value="Realty">Realty</option>
+					  <option value="Textiles">Textiles</option>
+					  <option value="Index">Index</option>
+				</select>
+	</div>
+					<div class="col-sm-2">
+				<select id="selSite" multiple class="form-control" style="height:44px;">
+					  <option value="Chartink">Chartink</option>
+					  <option value="Trendlyne">Trendlyne</option>
+					  <option value="NSE">NSE</option>
+					  <option value="Screener">Screener</option>
+
+					  <option value="Fundata">Fundata</option>
+					  <option value="Bazaartrend">Bazaartrend</option>
+					  <option value="Nseguide">Nseguide</option>
+					  <option value="Tradingview">Tradingview</option>
+					  <option value="Yahoo">Yahoo</option>
+
+
+				</select>
+				<button id="open-all" class="btn">open-all</button>
+		</div>
+
+
+
+
+
+	</div>
+
+
+		<div class="row">
+			<div class="col-sm-12">
+				    <div id="chart_div" style="width: 100%; height: 500px;"></div>
+				<div class="table-responsive">
+					<table id="stockTable" class="display" cellspacing="0" width="100%"> </table>
+					<table id="indexTable" class="display" cellspacing="0" width="100%"> </table>
+					<table id="fnostocksTable" class="display" cellspacing="0" width="100%"> </table>
+				</div>
+			</div>
+		</div>
+
+
+<!-- Kite Order Modal -->
+<div id="kiteOrderModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Kite Order Modal</h4>
+      </div>
+      <div class="modal-body">
+      <!--   <p>Some text in the modal.</p> -->
+		
+		<div class="form-group">
+		  <label for="trading_symbol">Trading Symbol:</label>
+		  <input type="text" class="form-control" id="trading_symbol" value="INFY">
+		</div>
+		
+		<div class="form-group">
+			<label class="radio-inline"><input value="BUY" type="radio" name="buyorsell" checked>BUY</label>
+			<label class="radio-inline"><input value="SELL" type="radio" name="buyorsell">SELL</label>
+		</div>
+		
+		<div class="form-group">
+		  <label for="quantity_num">Quantity:</label>
+		  <input type="text" class="form-control" id="quantity_num">
+		</div>
+		<div class="form-group ">
+			<label class="radio-inline"><input value="MARKET" type="radio" name="marketorlimit" checked>MARKET</label>
+			<label class="radio-inline"><input value="LIMIT" type="radio" name="marketorlimit">LIMIT</label>
+			<input type="text" class="form-control" id="limit_price" >
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="submitKiteOrder">Order</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- 
+		"tradingsymbol": "INFY",
+        "quantity": 5,
+        "transaction_type": "BUY",
+        "order_type": "MARKET"
+
+ -->
+
+
+
+
+	</div>
+	<div id="footerSec"></div>
+
+</body>
+
+</html>

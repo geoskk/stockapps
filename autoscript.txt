@@ -1,0 +1,20 @@
+Chrome Autoscript Plugin
+https://chrome.google.com/webstore/detail/autoscript/ncdjdlpobmiagjoiclfacnmmipbjkpek?hl=en
+
+<br>
+
+//chatink screener list link append code
+$('tr.odd,tr.even').each(function() {  
+	var data=$(this).find("td").eq(2).find("a").html();
+	var nlink = ''+
+	'<a target="_blank" title="TrendLyne" href="https://trendlyne.com/equity/' + data + '">L</a>-' +
+	'<a target="_blank" title="Chartink"  href="http://chartink.com/stocks/' + data + '.html">c</a>-' +
+	'<a target="_blank" title="Screener"  href="https://www.screener.in/company/' + data + '">s</a>-' +
+	'<a target="_blank" title="NSE"  href="https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/GetQuote.jsp?symbol=' + data + '">n</a>-' +
+	'<a target="_blank" title="TradingView" href="https://www.tradingview.com/chart/?symbol=NSE:' + data + '">t</a>-' +
+	'<a target="_blank" title="Yahoo" href="https://in.finance.yahoo.com/chart/' + data + '.NS">Y</a>-' +
+	'<a target="_blank" title="Senibull" href="https://web.sensibull.com/optionchain?tradingsymbol=' + data + '">SB</a>-' +
+	'<a target="_blank" title="Kite Trade"  href="index.html#stock=' + data + '">KT</a>-' ;
+	$(this).append( nlink );
+});
+

@@ -1,0 +1,498 @@
+﻿{
+   "ACC": {
+      "Sector": "Cement"
+   },
+   "ADANIENT": {
+      "Sector": "Trading"
+   },
+   "ADANIPORTS": {
+      "Sector": "Transport"
+   },
+   "ADANIPOWER": {
+      "Sector": "Electric"
+   },
+   "AMARAJABAT": {
+      "Sector": "Auto"
+   },
+   "AMBUJACEM": {
+      "Sector": "Cement"
+   },
+   "APOLLOHOSP": {
+      "Sector": "Pharma"
+   },
+   "APOLLOTYRE": {
+      "Sector": "Auto"
+   },
+   "ASHOKLEY": {
+      "Sector": "Auto"
+   },
+   "ASIANPAINT": {
+      "Sector": "Materials"
+   },
+   "AUROPHARMA": {
+      "Sector": "Pharma"
+   },
+   "AXISBANK": {
+      "Sector": "Bank"
+   },
+   "BAJAJ-AUTO": {
+      "Sector": "Auto"
+   },
+   "BAJAJFINSV": {
+      "Sector": "Finance"
+   },
+   "BAJFINANCE": {
+      "Sector": "Finance"
+   },
+   "BALKRISIND": {
+      "Sector": "Auto"
+   },
+   "BANKBARODA": {
+      "Sector": "Bank"
+   },
+   "BANKINDIA": {
+      "Sector": "Bank"
+   },
+   "BATAINDIA": {
+      "Sector": "FMCG"
+   },
+   "BEL": {
+      "Sector": "Electric"
+   },
+   "BERGEPAINT": {
+      "Sector": "Materials"
+   },
+   "BHARATFORG": {
+      "Sector": "Auto"
+   },
+   "BHARTIARTL": {
+      "Sector": "Communication"
+   },
+   "BHEL": {
+      "Sector": "Electric"
+   },
+   "BIOCON": {
+      "Sector": "Pharma"
+   },
+   "BOSCHLTD": {
+      "Sector": "Auto"
+   },
+   "BPCL": {
+      "Sector": "Oil"
+   },
+   "BRITANNIA": {
+      "Sector": "FMCG"
+   },
+   "CADILAHC": {
+      "Sector": "Pharma"
+   },
+   "CANBK": {
+      "Sector": "Bank"
+   },
+   "CASTROLIND": {
+      "Sector": "Auto"
+   },
+   "CENTURYTEX": {
+      "Sector": "Textiles"
+   },
+   "CESC": {
+      "Sector": "Electric"
+   },
+   "CHOLAFIN": {
+      "Sector": "Finance"
+   },
+   "CIPLA": {
+      "Sector": "Pharma"
+   },
+   "COALINDIA": {
+      "Sector": "Mineral"
+   },
+   "COLPAL": {
+      "Sector": "FMCG"
+   },
+   "CONCOR": {
+      "Sector": "Transport"
+   },
+   "CUMMINSIND": {
+      "Sector": "Auto"
+   },
+   "DABUR": {
+      "Sector": "FMCG"
+   },
+   "DHFL": {
+      "Sector": "Finance"
+   },
+   "DISHTV": {
+      "Sector": "Communication"
+   },
+   "DIVISLAB": {
+      "Sector": "Pharma"
+   },
+   "DLF": {
+      "Sector": "Realty"
+   },
+   "DRREDDY": {
+      "Sector": "Pharma"
+   },
+   "EICHERMOT": {
+      "Sector": "Auto"
+   },
+   "EQUITAS": {
+      "Sector": "Trading"
+   },
+   "ESCORTS": {
+      "Sector": "Auto"
+   },
+   "EXIDEIND": {
+      "Sector": "Auto"
+   },
+   "FEDERALBNK": {
+      "Sector": "Bank"
+   },
+   "GAIL": {
+      "Sector": "Oil"
+   },
+   "GLENMARK": {
+      "Sector": "Pharma"
+   },
+   "GMRINFRA": {
+      "Sector": "Infra"
+   },
+   "GODREJCP": {
+      "Sector": "FMCG"
+   },
+   "GRASIM": {
+      "Sector": "Cement"
+   },
+   "HAVELLS": {
+      "Sector": "Electric"
+   },
+   "HCLTECH": {
+      "Sector": "IT"
+   },
+   "HDFC": {
+      "Sector": "Finance"
+   },
+   "HDFCBANK": {
+      "Sector": "Bank"
+   },
+   "HEROMOTOCO": {
+      "Sector": "Auto"
+   },
+   "HEXAWARE": {
+      "Sector": "IT"
+   },
+   "HINDALCO": {
+      "Sector": "Metal"
+   },
+   "HINDPETRO": {
+      "Sector": "Oil"
+   },
+   "HINDUNILVR": {
+      "Sector": "FMCG"
+   },
+   "IBULHSGFIN": {
+      "Sector": "Finance"
+   },
+   "ICICIBANK": {
+      "Sector": "Bank"
+   },
+   "ICICIPRULI": {
+      "Sector": "Finance"
+   },
+   "IDEA": {
+      "Sector": "Communication"
+   },
+   "IDFCFIRSTB": {
+      "Sector": "Bank"
+   },
+   "IGL": {
+      "Sector": "Oil"
+   },
+   "INDIGO": {
+      "Sector": "Transport"
+   },
+   "INDUSINDBK": {
+      "Sector": "Bank"
+   },
+   "INFRATEL": {
+      "Sector": "Communication"
+   },
+   "INFY": {
+      "Sector": "IT"
+   },
+   "IOC": {
+      "Sector": "Oil"
+   },
+   "ITC": {
+      "Sector": "FMCG"
+   },
+   "JINDALSTEL": {
+      "Sector": "Metal"
+   },
+   "JSWSTEEL": {
+      "Sector": "Metal"
+   },
+   "JUBLFOOD": {
+      "Sector": "FMCG"
+   },
+   "JUSTDIAL": {
+      "Sector": "IT"
+   },
+   "KOTAKBANK": {
+      "Sector": "Bank"
+   },
+   "L&TFH": {
+      "Sector": "Finance"
+   },
+   "LICHSGFIN": {
+      "Sector": "Finance"
+   },
+   "LT": {
+      "Sector": "Realty"
+   },
+   "LUPIN": {
+      "Sector": "Pharma"
+   },
+   "M&M": {
+      "Sector": "Auto"
+   },
+   "M&MFIN": {
+      "Sector": "Finance"
+   },
+   "MANAPPURAM": {
+      "Sector": "Finance"
+   },
+   "MARICO": {
+      "Sector": "FMCG"
+   },
+   "MARUTI": {
+      "Sector": "Auto"
+   },
+   "MCDOWELL-N": {
+      "Sector": "Misc"
+   },
+   "MFSL": {
+      "Sector": "Finance"
+   },
+   "MGL": {
+      "Sector": "Oil"
+   },
+   "MINDTREE": {
+      "Sector": "IT"
+   },
+   "MOTHERSUMI": {
+      "Sector": "Auto"
+   },
+   "MRF": {
+      "Sector": "Auto"
+   },
+   "MUTHOOTFIN": {
+      "Sector": "Finance"
+   },
+   "NATIONALUM": {
+      "Sector": "Metal"
+   },
+   "NBCC": {
+      "Sector": "Realty"
+   },
+   "NCC": {
+      "Sector": "Realty"
+   },
+   "NESTLEIND": {
+      "Sector": "FMCG"
+   },
+   "NHPC": {
+      "Sector": "Electric"
+   },
+   "NIITTECH": {
+      "Sector": "IT"
+   },
+   "NMDC": {
+      "Sector": "Mineral"
+   },
+   "NTPC": {
+      "Sector": "Electric"
+   },
+   "OIL": {
+      "Sector": "Oil"
+   },
+   "ONGC": {
+      "Sector": "Oil"
+   },
+   "PAGEIND": {
+      "Sector": "Textiles"
+   },
+   "PEL": {
+      "Sector": "Pharma"
+   },
+   "PETRONET": {
+      "Sector": "Oil"
+   },
+   "PFC": {
+      "Sector": "Finance"
+   },
+   "PIDILITIND": {
+      "Sector": "Materials"
+   },
+   "PNB": {
+      "Sector": "Bank"
+   },
+   "POWERGRID": {
+      "Sector": "Electric"
+   },
+   "PVR": {
+      "Sector": "Media"
+   },
+   "RAMCOCEM": {
+      "Sector": "Cement"
+   },
+   "RBLBANK": {
+      "Sector": "Bank"
+   },
+   "RECLTD": {
+      "Sector": "Finance"
+   },
+   "RELCAPITAL": {
+      "Sector": "Finance"
+   },
+   "RELIANCE": {
+      "Sector": "Oil"
+   },
+   "RELINFRA": {
+      "Sector": "Infra"
+   },
+   "SAIL": {
+      "Sector": "Metal"
+   },
+   "SBIN": {
+      "Sector": "Bank"
+   },
+   "SHREECEM": {
+      "Sector": "Cement"
+   },
+   "SIEMENS": {
+      "Sector": "Electric"
+   },
+   "SRF": {
+      "Sector": "Textiles"
+   },
+   "SRTRANSFIN": {
+      "Sector": "Finance"
+   },
+   "STAR": {
+      "Sector": "Pharma"
+   },
+   "SUNPHARMA": {
+      "Sector": "Pharma"
+   },
+   "SUNTV": {
+      "Sector": "Media"
+   },
+   "TATACHEM": {
+      "Sector": "Misc"
+   },
+   "TATAELXSI": {
+      "Sector": "IT"
+   },
+   "TATAGLOBAL": {
+      "Sector": "FMCG"
+   },
+   "TATAMOTORS": {
+      "Sector": "Auto"
+   },
+   "TATAMTRDVR": {
+      "Sector": "Auto"
+   },
+   "TATAPOWER": {
+      "Sector": "Electric"
+   },
+   "TATASTEEL": {
+      "Sector": "Metal"
+   },
+   "TCS": {
+      "Sector": "IT"
+   },
+   "TECHM": {
+      "Sector": "IT"
+   },
+   "TITAN": {
+      "Sector": "Misc"
+   },
+   "TORNTPHARM": {
+      "Sector": "Pharma"
+   },
+   "TORNTPOWER": {
+      "Sector": "Electric"
+   },
+   "TVSMOTOR": {
+      "Sector": "Auto"
+   },
+   "UBL": {
+      "Sector": "Misc"
+   },
+   "UJJIVAN": {
+      "Sector": "Finance"
+   },
+   "ULTRACEMCO": {
+      "Sector": "Cement"
+   },
+   "UNIONBANK": {
+      "Sector": "Bank"
+   },
+   "UPL": {
+      "Sector": "Misc"
+   },
+   "VEDL": {
+      "Sector": "Metal"
+   },
+   "VOLTAS": {
+      "Sector": "Electric"
+   },
+   "WIPRO": {
+      "Sector": "IT"
+   },
+   "YESBANK": {
+      "Sector": "Bank"
+   },
+   "ZEEL": {
+      "Sector": "Media"
+   },
+   "NIFTY": {
+      "Sector": "Index"
+   },
+   "BANKNIFTY": {
+      "Sector": "Index"
+   },
+   "NIFTYPSUBANK": {
+      "Sector": "Index"
+   },
+   "NIFTYPVTBANK": {
+      "Sector": "Index"
+   },
+   "NIFTYMETAL": {
+      "Sector": "Index"
+   },
+   "NIFTYFMCG": {
+      "Sector": "Index"
+   },
+   "NIFTYFINSERVICE": {
+      "Sector": "Index"
+   },
+   "NIFTYMEDIA": {
+      "Sector": "Index"
+   },
+   "NIFTYAUTO": {
+      "Sector": "Index"
+   },
+   "CNXIT": {
+      "Sector": "Index"
+   },
+   "CNXPHARMA": {
+      "Sector": "Index"
+   },
+   "CNXMIDCAP": {
+      "Sector": "Index"
+   }
+
+}
