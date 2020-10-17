@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IndianStockInfo - Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122365350-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122365350-1');
+</script> -->
+
+
+
+ <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  
+  	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/init.js"></script>
+
+  <style>
+   
+   @media (min-width: 768px) {
+		#chartCont{
+			height: 600px;
+		}
+	}
+   
+   @media (max-width: 768px) {
+		#chartCont{
+			height: 400px;
+		}
+	}
+  </style>
+</head>
+<body>
+
+<div id="navSec"></div>
+
+<div class="container"> 
+
+
+
+
+
+
+
+
+
+ <div class="row">
+  	  <div class="col-sm-12" id="chartCont">
+		<!-- TradingView Widget BEGIN -->
+			<div class="tradingview-widget-container">
+			  <div id="tradingview_4864c"></div>
+			  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NSE-NIFTY/" rel="noopener" target="_blank"><span class="blue-text">NIFTY Chart</span></a> by TradingView</div>
+			  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+			  <script type="text/javascript">
+			  new TradingView.widget(
+			  {
+			  "width": 980,
+			  "height": 610,
+			  "symbol": "NSE:NIFTY",
+			  "interval": "D",
+			  "timezone": "Etc/UTC",
+			  "theme": "dark",
+			  "style": "1",
+			  "locale": "in",
+			  "toolbar_bg": "#f1f3f6",
+			  "enable_publishing": false,
+			  "allow_symbol_change": true,
+			  "container_id": "tradingview_4864c"
+			}
+			  );
+			  </script>
+			</div>
+			<!-- TradingView Widget END -->
+
+	 </div>
+  </div>
+  
+  <div class="row">
+  	  <div class="col-sm-12" style="height: 600px;">
+		<!-- TradingView Widget BEGIN -->
+			<div class="tradingview-widget-container">
+			  <div class="tradingview-widget-container__widget"></div>
+			  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/screener/" rel="noopener" target="_blank"><span class="blue-text">Stock Screener</span></a> by TradingView</div>
+			  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+			  {
+			  "width": 1100,
+			  "height": 512,
+			  "defaultColumn": "overview",
+			  "defaultScreen": "most_capitalized",
+			  "market": "india",
+			  "showToolbar": true,
+			  "colorTheme": "dark",
+			  "locale": "in"
+			}
+			  </script>
+			</div>
+			<!-- TradingView Widget END -->
+	 </div>
+  </div>
+  
+
+  <div class="row">
+  	  <div class="col-sm-4" style="height: 600px;">
+		<!-- TradingView Widget BEGIN -->
+		<div class="tradingview-widget-container">
+		  <div class="tradingview-widget-container__widget"></div>
+		  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NSE-RELIANCE/technicals/" rel="noopener" target="_blank"><span class="blue-text">Technical Analysis for RELIANCE</span></a> by TradingView</div>
+		  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+		  {
+		  "interval": "1m",
+		  "width": 425,
+		  "isTransparent": false,
+		  "height": 450,
+		  "symbol": "NSE:RELIANCE",
+		  "showIntervalTabs": true,
+		  "locale": "in",
+		  "colorTheme": "dark"
+		}
+		  </script>
+		</div>
+		<!-- TradingView Widget END -->
+	 </div>
+	 
+	 
+ <div class="col-sm-8" style="height: 600px;">
+			<!-- TradingView Widget BEGIN -->
+			<div class="tradingview-widget-container">
+			  <div class="tradingview-widget-container__widget"></div>
+			  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Market Data</span></a> by TradingView</div>
+			  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+			  {
+			  "width": 770,
+			  "height": 450,
+			  "symbolsGroups": [
+				{
+				  "name": "Indices",
+				  "originalName": "Indices",
+				  "symbols": [
+					{
+					  "name": "NSE:NIFTY"
+					},
+					{
+					  "name": "NSE:BANKNIFTY"
+					},
+					{
+					  "name": "NSE:CNXIT"
+					},
+					{
+					  "name": "NSE:NIFTYPVTBANK"
+					}
+				  ]
+				},
+				{
+				  "name": "Commodities",
+				  "originalName": "Commodities",
+				  "symbols": [
+					{
+					  "name": "CME_MINI:ES1!",
+					  "displayName": "S&P 500"
+					},
+					{
+					  "name": "CME:6E1!",
+					  "displayName": "Euro"
+					},
+					{
+					  "name": "COMEX:GC1!",
+					  "displayName": "Gold"
+					},
+					{
+					  "name": "NYMEX:CL1!",
+					  "displayName": "Crude Oil"
+					},
+					{
+					  "name": "NYMEX:NG1!",
+					  "displayName": "Natural Gas"
+					},
+					{
+					  "name": "CBOT:ZC1!",
+					  "displayName": "Corn"
+					}
+				  ]
+				},
+				{
+				  "name": "Bonds",
+				  "originalName": "Bonds",
+				  "symbols": [
+					{
+					  "name": "CME:GE1!",
+					  "displayName": "Eurodollar"
+					},
+					{
+					  "name": "CBOT:ZB1!",
+					  "displayName": "T-Bond"
+					},
+					{
+					  "name": "CBOT:UB1!",
+					  "displayName": "Ultra T-Bond"
+					},
+					{
+					  "name": "EUREX:FGBL1!",
+					  "displayName": "Euro Bund"
+					},
+					{
+					  "name": "EUREX:FBTP1!",
+					  "displayName": "Euro BTP"
+					},
+					{
+					  "name": "EUREX:FGBM1!",
+					  "displayName": "Euro BOBL"
+					}
+				  ]
+				},
+				{
+				  "name": "Forex",
+				  "originalName": "Forex",
+				  "symbols": [
+					{
+					  "name": "FX:EURUSD"
+					},
+					{
+					  "name": "FX:GBPUSD"
+					},
+					{
+					  "name": "FX:USDJPY"
+					},
+					{
+					  "name": "FX:USDCHF"
+					},
+					{
+					  "name": "FX:AUDUSD"
+					},
+					{
+					  "name": "FX:USDCAD"
+					}
+				  ]
+				}
+			  ],
+			  "colorTheme": "dark",
+			  "isTransparent": false,
+			  "locale": "in"
+			}
+			  </script>
+			</div>
+			<!-- TradingView Widget END -->
+	 </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+  </div>
+   
+
+    
+
+   
+  <div class="row">
+  	  <div class="col-sm-12" style="height: 600px;">
+			<!-- TradingView Widget BEGIN -->
+			<div class="tradingview-widget-container">
+			  <div id="tradingview_90fde"></div>
+			  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/USDINR/?exchange=OANDA" rel="noopener" target="_blank"><span class="blue-text">USDINR</span></a> by TradingView</div>
+			  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+			  <script type="text/javascript">
+			  new TradingView.MediumWidget(
+			  {
+			  "symbols": [
+				[
+				  "USDINR",
+				  "OANDA:USDINR|12M"
+				]
+			  ],
+			  "chartOnly": false,
+			  "width": 1000,
+			  "height": 400,
+			  "locale": "in",
+			  "colorTheme": "dark",
+			  "gridLineColor": "#2A2E39",
+			  "trendLineColor": "#1976D2",
+			  "fontColor": "#787B86",
+			  "underLineColor": "rgba(55, 166, 239, 0.15)",
+			  "isTransparent": false,
+			  "autosize": false,
+			  "container_id": "tradingview_90fde"
+			}
+			  );
+			  </script>
+			</div>
+			<!-- TradingView Widget END -->
+	 </div>
+  </div>
+
+
+
+  <div class="row">
+  	  <div class="col-sm-6" style="height: 600px;">
+			<!-- TradingView Widget BEGIN -->
+			<div class="tradingview-widget-container">
+			  <div class="tradingview-widget-container__widget"></div>
+			  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/currencies/economic-calendar/" rel="noopener" target="_blank"><span class="blue-text">Economic Calendar</span></a> by TradingView</div>
+			  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+			  {
+			  "colorTheme": "dark",
+			  "isTransparent": false,
+			  "width": "510",
+			  "height": "600",
+			  "locale": "in",
+			  "importanceFilter": "-1,0,1",
+			  "currencyFilter": "INR"
+			}
+			  </script>
+			</div>
+			<!-- TradingView Widget END -->
+	 </div>
+	 
+	 
+	   	  <div class="col-sm-6" style="height: 600px;">
+			<!-- TradingView Widget BEGIN -->
+			<div class="tradingview-widget-container">
+			  <div class="tradingview-widget-container__widget"></div>
+			  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/stocks-india/market-movers-gainers/" rel="noopener" target="_blank"><span class="blue-text">Stock Market</span></a> by TradingView</div>
+			  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+			  {
+			  "colorTheme": "dark",
+			  "dateRange": "12M",
+			  "exchange": "BSE",
+			  "showChart": true,
+			  "locale": "in",
+			  "largeChartUrl": "",
+			  "isTransparent": false,
+			  "showSymbolLogo": false,
+			  "width": "400",
+			  "height": "600",
+			  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+			  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+			  "gridLineColor": "rgba(42, 46, 57, 1)",
+			  "scaleFontColor": "rgba(120, 123, 134, 1)",
+			  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+			  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+			  "symbolActiveColor": "rgba(33, 150, 243, 0.12)"
+			}
+			  </script>
+			</div>
+			<!-- TradingView Widget END -->
+	 </div>
+	 
+	 
+  </div>
+
+
+
+  <div class="row">
+  	 
+  </div>
+
+
+
+  <div class="row">
+	   	  <div class="col-sm-8" style="height: 600px;">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "description": "",
+      "proName": "OANDA:USDINR"
+    },
+    {
+      "description": "",
+      "proName": "NSE:NIFTY"
+    },
+    {
+      "description": "",
+      "proName": "BANKNIFTY"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "in"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+	 </div>
+  </div>  
+	
+  <div class="row">
+
+  </div>  
+	
+  <div class="row">
+  	  <div class="col-sm-12" style="height: 600px;">
+
+	 </div>
+  </div>  
+	
+	
+  
+</div>
+
+<div id="footerSec"></div>
+
+</body>
+</html>
